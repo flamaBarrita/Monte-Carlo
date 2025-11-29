@@ -1,0 +1,19 @@
+/* frontend/src/index.css */
+:root {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #f4f4f4; /* Un fondo gris suave para que resalte la app */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: block; /* Esto elimina el "flex" por defecto de Vite que rompe el centrado */
+  width: 100%;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%; /* Asegura que React tenga permiso de usar toda la pantalla */
+}

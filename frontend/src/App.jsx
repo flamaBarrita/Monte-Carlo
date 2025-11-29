@@ -32,7 +32,7 @@ function App() {
     resetearAnimacion();
 
     try {
-      const res = await axios.post('http://localhost:8000/api/simulate', {
+      const res = await axios.post('https://sodoku-api.vercel.app/api/simulate', {
         precio_actual: config.precio,
         volatilidad: config.vol,
         dias: config.dias,
